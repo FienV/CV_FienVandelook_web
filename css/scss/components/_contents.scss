@@ -10,9 +10,10 @@
 	}
 }
 .heading-h2 {
+	font-family: 'Hepta Slab', serif;
 	font-size: 32px;
 	color: $gray-700;
-	font-weight: 900;
+	font-weight: 800;
 	&.divider {
 		&:before {
 			position: absolute;

@@ -7,9 +7,9 @@
 * Twitter: https://twitter.com/Untree_co
 * Facebook: https://web.facebook.com/Untree.co/
 */
-@import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Hepta+Slab:wght@600;700;800;900|Montserrat:wght@300;400;500;600;700|Raleway:300,400,700&display=swap");
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #495057;
   font-size: 16px;
   line-height: 30px;
@@ -834,9 +834,10 @@ a {
     color: #000; }
 
 .heading-h2 {
+  font-family: 'Hepta Slab', serif;
   font-size: 32px;
   color: #495057;
-  font-weight: 900; }
+  font-weight: 800; }
   .heading-h2.divider:before {
     position: absolute;
     content: ""; }
@@ -1282,7 +1283,7 @@ figure.dotted-bg {
     .unslate_co--footer .footer-site-logo a {
       font-size: 30px;
       font-weight: 900;
-      font-family: "Roboto", sans-serif;
+      font-family: 'Montserrat', sans-serif;
       color: #fff; }
       .unslate_co--footer .footer-site-logo a span {
         color: #3369e7; }
