@@ -11,7 +11,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: #495057;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
   position: relative;
   background: #fff; }
@@ -1652,6 +1652,14 @@ span.error {
   color: #313032;
 }
 
+.section-title {
+  font-family: Hepta Slab;
+  color: #313032;
+  font-weight: 700;
+  font-size: 38px;
+
+}
+
 .foto-header {
   position: absolute;
   bottom: 0px;
@@ -1660,6 +1668,17 @@ span.error {
 
 .socials:hover {
   fill: #BF4644 !important;
+}
+
+.inline {
+  display: inline;
+}
+
+.skills-text {
+  font-family: Hepta Slab;
+  font-weight: 600;
+  font-size: 22px;
+  color: #313032;
 }
 
 .mt-16 {
