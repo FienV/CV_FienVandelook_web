@@ -1562,10 +1562,11 @@ span.error {
     position: absolute;
     top: -.3rem;
     font-size: 20px;
-    left: 0; }
+    left: 0; 
+    color: #FF514E;}
 
 .list-check.primary li:before {
-  color: #00CECB; }
+  color: #FF514E; }
 
 .unslate_co--section li {
   display: inline-block; }
@@ -1681,6 +1682,34 @@ span.error {
   color: #313032;
 }
 
+.percent-backgr {
+  background-color: #FFCDCC;
+  height: 5px;
+  width: 115%;
+  margin-top: 14px;
+  margin-bottom: 25px;
+}
+
+.percent {
+  background-color: #FF514E;
+  height: 5px;
+  margin-top: -30px;
+  position: absolute;
+}
+
+.skills-icons {
+  padding-right: 24px;
+}
+
+.skills {
+  width: 80px;
+  margin-left: -30px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
 .mt-16 {
   margin-top: 16px;
 }
@@ -1696,11 +1725,19 @@ span.error {
 .mb-24 {
   margin-bottom: 24px;
 }
+
+.mr-24 {
+  margin-right: 24px;
+}
+
 .mt-32 {
   margin-top: 32px;
 }
 .mb-32 {
   margin-bottom: 32px;
+}
+.mr-32 {
+  margin-right: 32px;
 }
 .mt-40 {
   margin-top: 40px;
