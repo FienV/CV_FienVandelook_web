@@ -55,7 +55,7 @@ a {
     text-decoration: none !important; }
 
 .unslate_co--site-inner {
-  margin-bottom: 400px;
+  margin-bottom: 80px;
   position: relative;
   width: 100%;
   z-index: 1; }
@@ -1729,8 +1729,8 @@ span.error {
 }
 .dots2 {
   position: absolute;
-  margin-right: -40px;
-  margin-bottom: -40px;
+  bottom: -52px;
+  right: -36px;
 }
 
 .vlak {
@@ -1778,6 +1778,22 @@ span.error {
   display: flex;
   justify-content: center;
 }
+
+.fv-footer {
+  background-color: #FF514E;
+  height: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  padding-top: 16px;
+}
+
+.footer-link {
+  color: #ffc7c6;
+}
+  .footer-link:hover {
+    color: #fff5f5;
+  }
 
 .mr-8 {
   margin-right: 8px;

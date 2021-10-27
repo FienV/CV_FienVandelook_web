@@ -29,12 +29,71 @@
     <script src="https://kit.fontawesome.com/ac109a2b43.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+
+  <nav class="unslate_co--site-mobile-menu">
+    <div class="close-wrap d-flex">
+      <a href="#" class="d-flex ml-auto js-menu-toggle">
+        <span class="close-label">Close</span>
+        <div class="close-times">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+        </div>
+      </a>
+    </div>
+    <div class="site-mobile-inner"></div>
+  </nav>
+
+
+  <div class="unslate_co--site-wrap">
+
+    <div class="unslate_co--site-inner">
+
+  <!-- nav -->
+  <nav class="unslate_co--site-nav site-nav-target">
+
+    <div class="container">
+    
+      <div class="row align-items-center justify-content-between text-left">
+        <div class="col-md-5 text-left">
+          <div class="test">
+            <svg id="fv-logo" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" width="40px" viewBox="0 0 309.12 309.12"><defs><style>.fv{fill:#ff514e;}</style></defs><path class="fv" d="M27.37,199.89H0v68.38A40.31,40.31,0,0,0,.46,274H27.37Z"/><polygon class="fv" points="95.59 199.89 70.05 199.89 70.05 274.02 105.42 274.02 105.42 309.12 170.7 309.12 118.89 199.89 95.59 199.89"/><path class="fv" d="M268.27,0H40.84A41,41,0,0,0,0,40.84v124H27.37V112.71q0-26.55,14.26-41.84T87.32,55.56c16.47,0,28.59,2.85,38.32,9.91q13.62,9.87,17.69,30L108,103.58q-1.69-7.31-6.39-11T89.43,89Q80,89,75,94.8t-5,17.91v52.08h81.28l47,106.15H199l31.35-71.05h-21.2v-35.1H283.7v35.1H269.94L219.83,309.12h48.44a41,41,0,0,0,40.85-40.85V40.84A41,41,0,0,0,268.27,0Z"/></svg>
+          </div>
+        </div>
+        <div class="col-md-5 text-right">
+          <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+            <li class="has-children">
+              <a href="#home-section" class="nav-link nav-text">CV</a>
+              <ul class="dropdown" style="font-family: 'Montserrat';">
+                <li>
+                  <a href="#about-section">Over mezelf</a>
+                </li>
+                <li>
+                  <a href="#skills-section">Skills</a>
+                </li>
+                <li>
+                  <a href="#education-section">Opleiding / ervaring</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#portfolio.html" class="nav-link nav-text">Portfolio</a></li>
+            <li><a href="#contact-section" class="nav-link nav-text">Contact</a></li>
+          </ul>
+
+          <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+            <li><a href="#" class="js-menu-toggle nav-text">Menu</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+  </nav>
 
     <div class="unslate_co--section" id="portfolio-section">
         <div class="container">
           <div class="section-heading-wrap text-center mb-5" data-aos="fade-up">
-            <h2 class="heading-h2 text-center divider">Portfolio</h2>
+            <h2 class="section-title text-center divider mt-48 mb-32">Portfolio</h2>
             
           </div>
           
@@ -195,6 +254,23 @@
 
         </div>
       </div>
+    </div>
+
+      <!-- footer -->
+      <footer class="fv-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6" style="color: white;">
+              <p class="site-copyright"><small>&copy;<script>document.write(new Date().getFullYear());</script>  &bullet; Fien Vandelook, <a href="https://untree.co" class="footer-link" target="_blank" rel="nofollow noopener">Untree.co</a> &bullet; <a href="https://untree.co/license" class="footer-link" target="_blank" rel="nofollow noopener">License</a> </small></p>
+            </div>
+            <div class="col-md-6" style="display: flex; justify-content: flex-end;">
+              <div><svg width="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309.12 309.12"><defs><style>.fv2{fill:#ffffff;}</style></defs><path class="fv2" d="M27.37,199.89H0v68.38A40.31,40.31,0,0,0,.46,274H27.37Z"/><polygon class="fv2" points="95.59 199.89 70.05 199.89 70.05 274.02 105.42 274.02 105.42 309.12 170.7 309.12 118.89 199.89 95.59 199.89"/><path class="fv2" d="M268.27,0H40.84A41,41,0,0,0,0,40.84v124H27.37V112.71q0-26.55,14.26-41.84T87.32,55.56c16.47,0,28.59,2.85,38.32,9.91q13.62,9.87,17.69,30L108,103.58q-1.69-7.31-6.39-11T89.43,89Q80,89,75,94.8t-5,17.91v52.08h81.28l47,106.15H199l31.35-71.05h-21.2v-35.1H283.7v35.1H269.94L219.83,309.12h48.44a41,41,0,0,0,40.85-40.85V40.84A41,41,0,0,0,268.27,0Z"/></svg></div>
+            </div>
+          </div>
+        </div>
+      </footer>    
+
+    </div>
 
     <!-- Loader -->
     <div id="unslate_co--overlayer"></div>
