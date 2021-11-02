@@ -1795,6 +1795,13 @@ span.error {
     color: #fff5f5;
   }
 
+.port-title {
+  font-family: Hepta Slab;
+  font-weight: 600;
+  font-size: 17px;
+  font-variant: small-caps;
+}
+
 .mr-8 {
   margin-right: 8px;
 }
