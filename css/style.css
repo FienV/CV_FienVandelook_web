@@ -567,6 +567,11 @@ a {
       height: 100vh;
       min-height: 650px;
       max-height: 720px; }
+      @media (max-width: 767.98px) {
+        .cover-v1 .container {
+          min-height: 900px;
+        }
+      }
   .cover-v1 .heading {
     font-family: Hepta Slab;
     font-weight: 700;
@@ -1682,8 +1687,10 @@ span.error {
 .foto-header {
   position: absolute;
   bottom: 0px;
-  right: -40px;
-}
+  right: -40px;}
+  @media (max-width: 767.98px) {
+    .foto-header {
+      right: 0px;}}
 
 .socials:hover {
   fill: #BF4644 !important;
@@ -1726,21 +1733,56 @@ span.error {
 
 .dots {
   position: absolute;
-  margin-left: -40px;
-  margin-top: -40px;
-}
+  bottom: -30px;
+  right: -38px;
+  z-index: -1;}
+  @media (max-width: 767.98px) {
+    .dots {
+      display: none;
+    }}
+
 .dots2 {
   position: absolute;
   bottom: -52px;
-  right: -36px;
-}
+  right: -36px;}
+  @media (max-width: 767.98px) {
+    .dots2 {
+      display: none;
+    }}
+
+.about-photo {
+  margin-left: -40px;}
+  @media (max-width: 991.98px) {
+    .about-photo {
+      padding: 40px 80px 0px 80px;
+      margin-left: 0px;
+      order: 1;
+    }}
+.about-text {
+  padding-right: 96px; 
+  margin-top: -34px;}
+  @media (max-width: 767.98px) {
+    .about-text {
+      padding-right: 10px;
+      padding-left: 10px; 
+      margin-top: 0px;}}
 
 .vlak {
   position: absolute;
   bottom: -120px;
   margin-left: 800px;
-  z-index: -1;
-}
+  z-index: -1;}
+  @media (max-width: 991.98px) {
+    .vlak {
+      margin-left: 420px;}}
+
+  .vlak-width {
+    max-width: 400px;}
+    @media (max-width: 991.98px) {
+      .vlak-width {
+        max-width: 300px;}}
+
+
 
 .exp-title {
   font-family: Hepta Slab;
@@ -1804,6 +1846,28 @@ span.error {
   font-variant: small-caps;
 }
 
+.header-text {
+  bottom: 24px; 
+  position: absolute;}
+  @media (max-width: 767.98px){
+    .header-text{
+      bottom: 0px;
+      position: relative;
+      text-align: center;
+    }
+  }
+
+.fv:hover {
+  fill:#BF4644;
+}
+@media (max-width: 767.98px) {
+  .fv {display: none;}
+}
+
+.fv-responsive {
+  width: 30px;
+}
+
 .mr-8 {
   margin-right: 8px;
 }
@@ -1845,4 +1909,8 @@ span.error {
 }
 .mt-48 {
   margin-top: 48px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
 }
