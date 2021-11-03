@@ -54,7 +54,7 @@ var siteIstotope = function() {
   .done(function() {
   	$('.gsap-reveal-img').each(function() {
 			var html = $(this).html();
-			$(this).html('<div class="reveal-wrap"><span class="cover"></span><div class="reveal-content">'+html+'</div></div>');
+			$(this).html('<div class="reveal-wrap"><div class="reveal-content">'+html+'</div></div>');
 		});
 
   	var controller = new ScrollMagic.Controller();
