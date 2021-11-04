@@ -1873,7 +1873,7 @@ span.error {
   position: absolute;}
   @media (max-width: 767.98px){
     .header-text{
-      bottom: 48px;
+      bottom: 90px;
       position: relative;
       text-align: center;
     }
