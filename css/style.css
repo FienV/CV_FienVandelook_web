@@ -1774,6 +1774,12 @@ span.error {
       margin-left: 0px;
       order: 1;
     }}
+  @media (max-width: 767.98px) {
+    .about-photo {
+      padding: 40px 40px 0px 40px;
+      margin-left: 0px;
+      order: 1;
+    }}
 .about-text {
   padding-right: 96px; 
   margin-top: -34px;}
